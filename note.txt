@@ -1,0 +1,11 @@
+Updating value in map
+- Map.put(map, key, value)
+- %{ map | key : value }
+
+Keyword list = list contain tuples
+- List are like arrays, and they could be used for any arbitrary length
+- Tuples are like arrays where each index has some special meaning to us
+- ex: colors = [{:primary, "red"}, {:secondary, "green"}]
+- we can ignore {}
+- different with map: keyword list can have duplicate key
+    => Library Ecto (working with databases)
